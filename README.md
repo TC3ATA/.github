@@ -142,12 +142,12 @@ Contributing
 Contributions are welcome. Follow the steps below to contribute:
 
 Fork the repository on GitHub.
-Clone your fork:
 
 
-## Code Samples
 
-### sh (`sh`)
+## Clone your fork:
+
+### Clone your fork: (`Clone your fork:`)
 
 ```sh
 git clone [[https://github.com/yourusername/Amateur-Radio-Experiments.git](https://github.com/AmateurRadioExperimentsforSpace)](https://github.com/AmateurRadioExperimentsforSpace)
@@ -155,19 +155,19 @@ git clone [[https://github.com/yourusername/Amateur-Radio-Experiments.git](https
 ```
 
 
-Create a new branch:
 
-## Code Samples
 
-### sh (`sh`)
+## Create a new branch:
+
+### Create a new branch:(`Create a new branch:`)
 
 ```sh
 git checkout -b feature-branch
 
 ```
-## Code Samples
+## Make changes, commit, and push:
 
-### sh (`sh`)
+### Make changes, commit, and push: (`Make changes, commit, and push:`)
 
 ```sh
 git commit -m "Added new feature"
@@ -175,6 +175,6 @@ git push origin feature-branch
 
 
 ```
-
+Submit a Pull Request.
 
 
