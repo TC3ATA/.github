@@ -80,3 +80,35 @@ To complete the experiments, the following components and tools are required:
 
 ## Repository Structure
 
+Amateur-Radio-Experiments
+│── docs/ # Documentation and guides
+│── hardware/ # Circuit diagrams and hardware designs
+│── software/ # Python, Arduino, and SDR scripts
+│── aprs/ # APRS tracking and telemetry scripts
+│── pico-balloon/ # Pico balloon flight scripts
+│── cubesat/ # CubeSat prototype software
+│── .gitignore # Git ignore file
+│── LICENSE # License file
+│── README.md # Project README
+│── CONTRIBUTING.md # Contribution guidelines
+
+
+## Code Samples
+
+### SDR Signal Scanner (`software/rtl_sdr_scan.py`)
+
+```python
+import rtlsdr
+
+sdr = rtlsdr.RtlSdr()
+
+sdr.sample_rate = 2.048e6  
+sdr.center_freq = 145000000  
+sdr.gain = 4  
+
+samples = sdr.read_samples(256*1024)
+print("Captured samples:", len(samples))
+
+sdr.close()
+
+
