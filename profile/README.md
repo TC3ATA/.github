@@ -1,4 +1,4 @@
-# Amateur Radio Experiments for Space (Türkiye)
+# Amateur Radio Experiments for Space (TC3ATA)
 
 This repository serves as an open-source initiative for amateur radio, software-defined radio (SDR), APRS, pico balloons, and CubeSat experiments. It provides a structured learning path for enthusiasts, researchers, and students.  
 
