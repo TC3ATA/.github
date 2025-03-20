@@ -2,6 +2,10 @@
 
 This repository serves as an open-source initiative for amateur radio, software-defined radio (SDR), APRS, pico balloons, and CubeSat experiments. It provides a structured learning path for enthusiasts, researchers, and students.  
 
+![st](https://github.com/user-attachments/assets/d410665c-ee29-40e6-99d2-ca2c031d9efa)
+
+
+
 ## Project Overview
 
 - **Skill Level:** Beginner to Advanced  
