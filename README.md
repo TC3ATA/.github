@@ -131,23 +131,50 @@ AIS.sendall(packet)
 AIS.close()
 print("APRS packet sent!")
 ```
-
-##License
+License
 This project is licensed under the MIT License.
 
-##Contributing
+Contributing
 Contributions are welcome. Follow the steps below to contribute:
 
-##Fork the repository on GitHub.
+
+Contributing
+Contributions are welcome. Follow the steps below to contribute:
+
+Fork the repository on GitHub.
 Clone your fork:
-git clone [https://github.com](https://github.com/AmateurRadioExperimentsforSpace)
 
 
+## Code Samples
+
+### sh (`sh`)
+
+```sh
+git clone [[https://github.com/yourusername/Amateur-Radio-Experiments.git](https://github.com/AmateurRadioExperimentsforSpace)](https://github.com/AmateurRadioExperimentsforSpace)
+
+```
+
+
+Create a new branch:
+
+## Code Samples
+
+### sh (`sh`)
+
+```sh
 git checkout -b feature-branch
+
+```
+## Code Samples
+
+### sh (`sh`)
+
+```sh
 git commit -m "Added new feature"
 git push origin feature-branch
-Submit a Pull Request.
 
+
+```
 
 
 
