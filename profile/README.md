@@ -2,10 +2,7 @@
 
 This repository serves as an open-source initiative for amateur radio, software-defined radio (SDR), APRS, pico balloons, and CubeSat experiments. It provides a structured learning path for enthusiasts, researchers, and students.  
 
-![st (2)](https://github.com/user-attachments/assets/89449df3-b2bb-4506-a8b4-1323ccb9e64d)
-
-
-
+https://www.qrz.com/db/TC3ATA
 
 ## Project Overview
 
