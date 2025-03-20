@@ -1,160 +1,82 @@
-# 🚀 Amateur Radio Experiments for Space (Türkiye)
+# Amateur Radio Experiments for Space (Türkiye)
 
-An open-source initiative for **amateur radio, software-defined radio (SDR), APRS, pico balloons, and CubeSat experiments**. This project serves as a structured roadmap for enthusiasts, researchers, and students.
+This repository serves as an open-source initiative for amateur radio, software-defined radio (SDR), APRS, pico balloons, and CubeSat experiments. It provides a structured learning path for enthusiasts, researchers, and students.  
 
-> **Goal:** To advance from simple radio experiments to CubeSat development through step-by-step, hands-on projects.
+## Project Overview
 
-![Amateur Radio Space](https://upload.wikimedia.org/wikipedia/commons/9/9a/SDR_radio_interface.jpg)
+- **Skill Level:** Beginner to Advanced  
+- **Topics Covered:** Amateur radio, SDR, APRS, pico balloons, satellite communications, CubeSat development  
+- **Contribution:** Open to the community  
 
----
+## Table of Contents
 
-## 📌 Project Overview
+- [Requirements](#requirements)  
+- [Experiment Steps](#experiment-steps)  
+  - [Basic Radio and Antenna Experiments](#basic-radio-and-antenna-experiments)  
+  - [APRS and Data Transmission](#aprs-and-data-transmission)  
+  - [Pico Balloon Experiments](#pico-balloon-experiments)  
+  - [Satellite Communication and Radio Experiments](#satellite-communication-and-radio-experiments)  
+  - [Introduction to CubeSat Development](#introduction-to-cubesat-development)  
+- [Repository Structure](#repository-structure)  
+- [Code Samples](#code-samples)  
+- [License](#license)  
+- [Contributing](#contributing)  
 
-🔹 **Level:** Beginner → Advanced  
-🔹 **Main Topics:** Amateur radio, SDR, APRS, pico balloons, satellite communications, CubeSat  
-🔹 **Open-source Contributions:** Everyone is welcome to contribute  
+## Requirements
 
----
+To complete the experiments, the following components and tools are required:
 
-## 📖 Table of Contents
+- **Hardware:**
+  - Software-defined radio (RTL-SDR, HackRF, or equivalent)  
+  - Microcontrollers (Raspberry Pi, ESP32, Arduino)  
+  - GPS module for APRS tracking  
+  - VHF/UHF radio (Baofeng UV-5R or equivalent)  
+  - Helium gas for pico balloons  
+  - Soldering equipment  
 
-- [🔧 Requirements](#-requirements)
-- [📡 Experiment Steps](#-experiment-steps)
-  - [A. Basic Radio and Antenna Experiments](#a-basic-radio-and-antenna-experiments)
-  - [B. APRS and Data Transmission](#b-aprs-and-data-transmission)
-  - [C. Pico Balloon Experiments](#c-pico-balloon-experiments)
-  - [D. Satellite Communication and Radio Experiments](#d-satellite-communication-and-radio-experiments)
-  - [E. Introduction to CubeSat Development](#e-introduction-to-cubesat-development)
-- [📜 License](#-license)
-- [🔗 Contributing](#-contributing)
+- **Software:**
+  - SDR tools (GQRX, SDR#)  
+  - APRS FI, HABHUB for tracking  
+  - WxToImg for satellite imagery  
 
----
+## Experiment Steps
 
-## 🔧 Requirements
+### Basic Radio and Antenna Experiments
 
-To complete the experiments, you will need:
+1. Listening to FM, AM, and SW signals using an SDR receiver.  
+2. Building and measuring a basic dipole antenna.  
+3. Designing a directional Yagi antenna for fox hunting.  
+4. Implementing a 433 MHz transmitter and performing fox hunting tests.  
 
-✔️ **Software-defined radio (SDR):** RTL-SDR, HackRF, or similar  
-✔️ **Microcontrollers:** Raspberry Pi, ESP32, Arduino  
-✔️ **GPS module** for APRS tracking  
-✔️ **VHF/UHF radio** (Baofeng UV-5R or equivalent)  
-✔️ **Helium gas** for pico balloons  
-✔️ **Soldering equipment**  
-✔️ **Software:** GQRX, SDR#, APRS FI, HABHUB, WxToImg  
+### APRS and Data Transmission
 
----
+5. Introduction to APRS networks and the APRS FI map.  
+6. Sending basic APRS messages using Raspberry Pi or ESP32.  
+7. Implementing multi-APRS transmission and mobile tracking.  
+8. Remote environmental data collection via APRS.  
 
-## 📡 Experiment Steps
+### Pico Balloon Experiments
 
-### A. Basic Radio and Antenna Experiments
+9. Understanding balloon physics and flight preparation.  
+10. Launching a test pico balloon and tracking it via APRS.  
+11. Calculating flight paths and landing predictions with HABHUB.  
+12. Experimenting with long-duration solar-powered tracking.  
 
-#### 1️⃣ Listening to Radio Signals
-- Understanding FM, AM, and SW signals
-- Tuning SDR receivers (RTL-SDR, HackRF)
+### Satellite Communication and Radio Experiments
 
-#### 2️⃣ Simple Antenna Design and Measurements
-- Building a dipole antenna
-- Measuring antenna gain
+13. Receiving weather images from NOAA and METEOR satellites.  
+14. Listening to APRS and SSTV transmissions from the ISS.  
+15. Monitoring amateur satellites such as Funcube and AO-91.  
+16. Setting up an SDR-based ground station.  
 
-#### 3️⃣ Directional Antenna Design (Yagi and Helix Antennas)
-- Creating a Yagi antenna for fox hunting
-- Using open-source antenna simulation tools
+### Introduction to CubeSat Development
 
-#### 4️⃣ Fox Hunting (Hidden Transmitter Hunting)
-- Building a 433 MHz direction-finding system
-- Field testing techniques
+17. Learning CubeSat structure, power, and communication systems.  
+18. Simulating a CubeSat using open-source tools.  
+19. Integrating SDR and APRS for CubeSat telemetry.  
+20. Conducting ground-based CubeSat communication tests.  
+21. Setting up a functional CubeSat ground station.  
+22. Prototyping and pre-launch testing of a CubeSat module.  
 
----
+## Repository Structure
 
-### B. APRS and Data Transmission
-
-#### 5️⃣ Introduction to APRS
-- Understanding the APRS FI map
-- Learning about APRS networks
-
-#### 6️⃣ Sending Basic APRS Messages
-- Transmitting APRS packets with Raspberry Pi or ESP32
-- Integrating GPS data
-
-#### 7️⃣ Multi-APRS Transmission and Tracking
-- Sending location data from multiple stations
-- Mobile APRS station setup
-
-#### 8️⃣ Remote Sensor Monitoring with APRS
-- Collecting environmental data via APRS
-- Comparing LoRaWAN and APRS
-
----
-
-### C. Pico Balloon Experiments
-
-#### 9️⃣ Introduction to Pico Balloons
-- Understanding balloon physics and flight planning
-
-#### 🔟 First Basic Pico Balloon Launch
-- Preparing a small test balloon
-- Tracking it via APRS
-
-#### 1️⃣1️⃣ Flight and Landing Calculations
-- Predicting balloon trajectories with HABHUB
-
-#### 1️⃣2️⃣ Long-Duration Pico Balloon Experiments
-- Using solar-powered tracking devices
-
----
-
-### D. Satellite Communication and Radio Experiments
-
-#### 1️⃣3️⃣ Receiving Images from NOAA and METEOR Satellites
-- Capturing weather satellite signals
-- Processing data with WxToImg
-
-#### 1️⃣4️⃣ ISS APRS and SSTV Experiments
-- Listening to the ISS APRS channel
-- Receiving SSTV images
-
-#### 1️⃣5️⃣ Monitoring Amateur Satellites (CubeSats)
-- Tracking Funcube, AO-91, and similar satellites
-
-#### 1️⃣6️⃣ Setting Up an SDR Server
-- Creating a remote SDR ground station
-
----
-
-### E. Introduction to CubeSat Development
-
-#### 1️⃣7️⃣ CubeSat Fundamentals
-- Structure, power systems, and communication modules
-
-#### 1️⃣8️⃣ Simulating a CubeSat
-- Using open-source simulation tools
-
-#### 1️⃣9️⃣ CubeSat SDR and APRS Integration
-- Designing an SDR-based communication module
-
-#### 2️⃣0️⃣ Ground-Based CubeSat Testing
-- Establishing communication with a ground station
-
-#### 2️⃣1️⃣ Developing a Ground Station for CubeSat Operations
-- Hardware and software requirements
-
-#### 2️⃣2️⃣ Initiating CubeSat Development
-- Prototyping and pre-launch testing
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 🔗 Contributing
-
-Thank you for your interest in contributing to this open-source project!  
-
-### How to Contribute
-- Fork the repository  
-- Clone your fork:  
-  ```sh
- 
