@@ -110,5 +110,27 @@ samples = sdr.read_samples(256*1024)
 print("Captured samples:", len(samples))
 
 sdr.close()
+```
+## Code Samples
+
+### Sending APRS Messages (aprs/send_aprs.py)
+
+```python
+import aprslib
+
+callsign = "N0CALL"
+latitude = "40.7128N"
+longitude = "74.0060W"
+message = "Testing APRS transmission"
+
+packet = f"{callsign}>APRS,TCPIP*::{latitude}/{longitude}: {message}"
+
+AIS = aprslib.IS(callsign, passwd="12345", host="rotate.aprs2.net", port=14580)
+AIS.connect()
+AIS.sendall(packet)
+AIS.close()
+print("APRS packet sent!")
+```
+
 
 
