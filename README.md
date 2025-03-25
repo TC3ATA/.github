@@ -1,180 +1,105 @@
-# Amateur Radio Experiments for Space (Türkiye)
+# TC3ATA - Amateur Radio Experiments for Space (Türkiye)
 
-This repository serves as an open-source initiative for amateur radio, software-defined radio (SDR), APRS, pico balloons, and CubeSat experiments. It provides a structured learning path for enthusiasts, researchers, and students.  
+## Overview
 
-## Project Overview
+This repository documents a step-by-step roadmap for amateur radio experiments, focusing on HF, VHF, UHF, APRS, SDR, CW, digital modes, and antenna designs. The goal is to progress from basic radio communication to advanced satellite and high-altitude balloon projects.
 
-- **Skill Level:** Beginner to Advanced  
-- **Topics Covered:** Amateur radio, SDR, APRS, pico balloons, satellite communications, CubeSat development  
-- **Contribution:** Open to the community  
+## Roadmap
 
-## Table of Contents
+### **1. QSO Logbook Development**
+- Developing a logbook application using Python or a web-based solution.
+- Integrating with QRZ and LOTW for QSO record keeping.
 
-- [Requirements](#requirements)  
-- [Experiment Steps](#experiment-steps)  
-  - [Basic Radio and Antenna Experiments](#basic-radio-and-antenna-experiments)  
-  - [APRS and Data Transmission](#aprs-and-data-transmission)  
-  - [Pico Balloon Experiments](#pico-balloon-experiments)  
-  - [Satellite Communication and Radio Experiments](#satellite-communication-and-radio-experiments)  
-  - [Introduction to CubeSat Development](#introduction-to-cubesat-development)  
-- [Repository Structure](#repository-structure)  
-- [Code Samples](#code-samples)  
-- [License](#license)  
-- [Contributing](#contributing)  
+### **2. APRS Transmission Using ESP**
+- Using ESP32 and a GPS module to transmit location data over APRS.
+- Testing APRS-IS and RF transmissions.
 
-## Requirements
+### **3. 40M Monoband Antenna and Morse Paddle Development**
+- Designing a wire antenna for the 40-meter band and measuring SWR.
+- Creating a Morse paddle using mechanical or 3D printing techniques.
 
-To complete the experiments, the following components and tools are required:
+### **4. Pixie V4 Construction and Toroidal Coils**
+- Building a low-power (QRP) Pixie V4 transceiver for CW.
+- Working with toroidal coils for impedance matching and signal filtering.
 
-- **Hardware:**
-  - Software-defined radio (RTL-SDR, HackRF, or equivalent)  
-  - Microcontrollers (Raspberry Pi, ESP32, Arduino)  
-  - GPS module for APRS tracking  
-  - VHF/UHF radio (Baofeng UV-5R or equivalent)  
-  - Helium gas for pico balloons  
-  - Soldering equipment  
+### **5. CW Communication Tests**
+- Receiving and decoding HF CW signals.
+- Conducting QSO attempts using a 5W output.
 
-- **Software:**
-  - SDR tools (GQRX, SDR#)  
-  - APRS FI, HABHUB for tracking  
-  - WxToImg for satellite imagery  
+### **6. POTA & SOTA Activation Tests**
+- Setting up portable stations and testing mobile antennas.
+- Establishing long-distance QRP communication.
 
-## Experiment Steps
+### **7. 25W YM3XUU Conversion and Field Testing**
+- Conducting field tests with a 25W output power under the YM3XUU call sign.
+- Evaluating antenna performance and signal directionality.
 
-### Basic Radio and Antenna Experiments
+### **8. Enhancing ESP APRS for Mobile Integration**
+- Connecting the ESP APRS device to mobile phones via Bluetooth or WiFi.
+- Sending APRS messages from a smartphone.
 
-1. Listening to FM, AM, and SW signals using an SDR receiver.  
-2. Building and measuring a basic dipole antenna.  
-3. Designing a directional Yagi antenna for fox hunting.  
-4. Implementing a 433 MHz transmitter and performing fox hunting tests.  
+### **9. TIDH3 Modes (HF and VHF Digital Modes)**
+- Experimenting with FT8, JS8Call, RTTY, SSTV, and PSK31.
+- Using WSJT-X and FLdigi for digital communication.
 
-### APRS and Data Transmission
+### **10. TIDH3 Bluetooth Communication**
+- Enabling digital modes via Bluetooth connectivity with a phone or tablet.
+- Developing mobile SDR interfaces for HF/VHF.
 
-5. Introduction to APRS networks and the APRS FI map.  
-6. Sending basic APRS messages using Raspberry Pi or ESP32.  
-7. Implementing multi-APRS transmission and mobile tracking.  
-8. Remote environmental data collection via APRS.  
+### **11. SDR Receiver and Spectrum Analysis**
+- Receiving signals from NOAA, METEOR, AO-91, and ISS SSTV using SDR.
+- Analyzing and processing the RF spectrum.
 
-### Pico Balloon Experiments
+### **12. ISS (International Space Station) Reception**
+- Capturing amateur radio signals from the ISS.
+- Attempting voice or data communication with astronauts.
 
-9. Understanding balloon physics and flight preparation.  
-10. Launching a test pico balloon and tracking it via APRS.  
-11. Calculating flight paths and landing predictions with HABHUB.  
-12. Experimenting with long-duration solar-powered tracking.  
+### **13. SSTV (Slow Scan Television) Experiments**
+- Receiving SSTV images via HF or ISS transmissions.
+- Using Robot36 and MMSSTV for image decoding.
 
-### Satellite Communication and Radio Experiments
+### **14. High-Altitude Balloon Test Using ESP**
+- Designing a lightweight communication payload for APRS tracking.
+- Conducting endurance and atmospheric testing.
 
-13. Receiving weather images from NOAA and METEOR satellites.  
-14. Listening to APRS and SSTV transmissions from the ISS.  
-15. Monitoring amateur satellites such as Funcube and AO-91.  
-16. Setting up an SDR-based ground station.  
+### **15. Uno DX Study**
+- Exploring Uno DX technology for digital communication.
+- Testing Uno DX in various frequency bands.
 
-### Introduction to CubeSat Development
-
-17. Learning CubeSat structure, power, and communication systems.  
-18. Simulating a CubeSat using open-source tools.  
-19. Integrating SDR and APRS for CubeSat telemetry.  
-20. Conducting ground-based CubeSat communication tests.  
-21. Setting up a functional CubeSat ground station.  
-22. Prototyping and pre-launch testing of a CubeSat module.  
+### **16. Uno DX Testing**
+- Conducting QSOs with Uno DX and evaluating signal quality.
+- Experimenting with digital modes on Uno DX.
 
 ## Repository Structure
 
-Amateur-Radio-Experiments
-│── docs/ # Documentation and guides
-│── hardware/ # Circuit diagrams and hardware designs
-│── software/ # Python, Arduino, and SDR scripts
-│── aprs/ # APRS tracking and telemetry scripts
-│── pico-balloon/ # Pico balloon flight scripts
-│── cubesat/ # CubeSat prototype software
-│── .gitignore # Git ignore file
-│── LICENSE # License file
-│── README.md # Project README
-│── CONTRIBUTING.md # Contribution guidelines
 
+---
 
-## Code Samples
+## Contribution Guidelines
 
-### SDR Signal Scanner (`software/rtl_sdr_scan.py`)
+We welcome contributions to the project. If you would like to contribute:
+1. **Fork** the repository.
+2. **Create** a new branch for your changes.
+3. **Submit** a pull request with a detailed explanation.
 
-```python
-import rtlsdr
+For major changes, please open an issue first to discuss proposed modifications.
 
-sdr = rtlsdr.RtlSdr()
+---
 
-sdr.sample_rate = 2.048e6  
-sdr.center_freq = 145000000  
-sdr.gain = 4  
+## License
 
-samples = sdr.read_samples(256*1024)
-print("Captured samples:", len(samples))
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
-sdr.close()
-```
-## Code Samples
+---
 
-### Sending APRS Messages (aprs/send_aprs.py)
+## Contact & Community
 
-```python
-import aprslib
+For updates and discussions, follow our community:
+- **Website:** [Coming Soon]
+- **GitHub Issues:** Use the repository issue tracker for questions and discussions.
+- **Email:** [Your Email or Contact]
 
-callsign = "N0CALL"
-latitude = "40.7128N"
-longitude = "74.0060W"
-message = "Testing APRS transmission"
+---
 
-packet = f"{callsign}>APRS,TCPIP*::{latitude}/{longitude}: {message}"
-
-AIS = aprslib.IS(callsign, passwd="12345", host="rotate.aprs2.net", port=14580)
-AIS.connect()
-AIS.sendall(packet)
-AIS.close()
-print("APRS packet sent!")
-```
-License
-This project is licensed under the MIT License.
-
-Contributing
-Contributions are welcome. Follow the steps below to contribute:
-
-
-Contributing
-Contributions are welcome. Follow the steps below to contribute:
-
-Fork the repository on GitHub.
-
-
-
-## Clone your fork:
-
-### Clone your fork: (`Clone your fork:`)
-
-```sh
-git clone [[https://github.com/yourusername/Amateur-Radio-Experiments.git](https://github.com/AmateurRadioExperimentsforSpace)](https://github.com/AmateurRadioExperimentsforSpace)
-
-```
-
-
-
-
-## Create a new branch:
-
-### Create a new branch:(`Create a new branch:`)
-
-```sh
-git checkout -b feature-branch
-
-```
-## Make changes, commit, and push:
-
-### Make changes, commit, and push: (`Make changes, commit, and push:`)
-
-```sh
-git commit -m "Added new feature"
-git push origin feature-branch
-
-
-```
-Submit a Pull Request.
-
+This repository serves as a **comprehensive guide for amateur radio experiments**, designed for enthusiasts, researchers, and students interested in wireless communication, satellite technologies, and high-altitude projects.
 
