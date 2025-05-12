@@ -21,7 +21,7 @@ Bu depo, amatör telsiz, yazılım tanımlı radyo (SDR), APRS, pico balonlar ve
 - Gönüllü mühendisler ve öğretmenler
 - STEM kulüpleri ve maker toplulukları
 
-## Proje Yol Haritası (En Az 20 Adım)
+## Proje Yol Haritası 
 
 1. 📚 Proje Amaçlarının Belirlenmesi ve Literatür Taraması  
 2. 🎓 Radyo Amatörlüğü ve Lisanslama Süreci (TA, TB, TC çağrı işaretleri)  
@@ -49,6 +49,9 @@ Bu depo, amatör telsiz, yazılım tanımlı radyo (SDR), APRS, pico balonlar ve
 ## Son Aşama
 
 > ✅ **Nisan 2025** tarihinde APRS balon testimiz başarıyla gerçekleştirilmiştir. ESP8266 tabanlı verici, sıcaklık ve konum verilerini başarıyla iletmiştir. Veriler APRS.fi platformu üzerinden takip edilmiştir.
+>
+> ![image](https://github.com/user-attachments/assets/308221ae-2953-44ec-b603-38d132560175)
+
 
 ## Katkı Sağlamak
 Projeye katkı sağlamak isteyen herkes pull request gönderebilir veya “Issues” kısmından önerilerini paylaşabilir.
@@ -68,7 +71,7 @@ This repository is an open-source initiative focused on amateur radio, software-
 - Volunteer engineers and educators
 - STEM clubs and maker communities
 
-## Project Roadmap (Minimum 20 Steps)
+## Project Roadmap 
 
 1. 📚 Defining Project Objectives & Literature Review  
 2. 🎓 Understanding Amateur Radio Licensing (TA, TB, TC callsigns in Turkey)  
@@ -96,6 +99,9 @@ This repository is an open-source initiative focused on amateur radio, software-
 ## Latest Progress
 
 > ✅ **As of April 2025**, our APRS balloon test was successfully completed. The ESP8266-based transmitter sent real-time temperature and GPS data, which was tracked via APRS.fi.
+>
+> ![image](https://github.com/user-attachments/assets/5ad07906-3417-4cb5-8946-d6dffbdcb7da)
+
 
 ## Contributing
 Feel free to contribute via pull requests or by opening an issue with suggestions or improvements.
