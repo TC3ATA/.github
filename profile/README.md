@@ -69,18 +69,25 @@ https://firebasestorage.googleapis.com/v0/b/ariss-sstv.appspot.com/o/img%2F17045
 - 40 metre bandı için bir tel anten tasarımı ve SWR ölçümleri  
 - Mekanik veya 3D baskı teknikleri ile mors anahtarı yapımı
 
+(Ertelendi)
+
 ### 5. Pixie V4 ve Toroid Bobinler
 - CW için düşük güçlü (QRP) Pixie V4 verici-alıcısının inşası  
 - Empedans uyumu ve sinyal filtreleme için toroid bobinlerle çalışma
+
+  (Ertelendi)
 
 ### 6. CW İletişim Testleri
 - HF CW sinyallerini alma ve çözme  
 - 0.1mW çıkış gücüyle QSO denemeleri yapma
 
+(Ertelendi)
+
 ### 7. POTA & SOTA Aktivasyon Testleri
 - Taşınabilir istasyonlar kurma ve mobil anten testleri  
 - Uzun mesafe QRP iletişimi sağlama
 
+(Ertelendi)
 
 ### 9. ESP ile Gelişmiş APRS ve Bluetooth/WiFi Entegrasyonu
 - ESP APRS cihazını cep telefonlarına Bluetooth veya WiFi üzerinden bağlama  
@@ -91,10 +98,16 @@ https://firebasestorage.googleapis.com/v0/b/ariss-sstv.appspot.com/o/img%2F17045
 - Uzun menzilli düşük bant genişlikli iletişim testleri  
 - Meshtastic üzerinden şifreli mesajlaşma ve konum paylaşımı
 
+![image](https://github.com/user-attachments/assets/323ecf57-dc93-40c7-a5b3-738d3b432542)
+
+  (Erkene alındı)
+
 ### 11. Meshtastic Entegrasyonu ve Alan Testleri
 - Alan dışında haberleşme senaryoları test etme  
 - Mobil uygulama ve Meshtastic cihazlarıyla senkronizasyon  
 - Güç tüketimi ve menzil analizleri
+
+(Erkene alındı)
 
 ### 12. ISS (Uluslararası Uzay İstasyonu) Alımı
 - ISS üzerinden amatör radyo sinyallerini yakalama  
@@ -191,6 +204,9 @@ https://firebasestorage.googleapis.com/v0/b/ariss-sstv.appspot.com/o/img%2F17045
 - Setting up a LoRa-based Meshtastic mesh network using ESP32 modules  
 - Testing long-range, low-bandwidth encrypted communication  
 - Sharing GPS and messaging data across nodes
+
+  ![image](https://github.com/user-attachments/assets/b012c8d5-c6fb-4919-afa9-17a4a64c5251)
+
 
 ### 11. Meshtastic Integration and Field Trials
 - Testing communication scenarios in off-grid conditions  
