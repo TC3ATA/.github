@@ -1,6 +1,6 @@
 # Amateur Radio Experiments for Space (TC3ATA)
 
-This repository serves as an open-source initiative for amateur radio, software-defined radio (SDR), APRS, pico balloons, and CubeSat experiments. It provides a structured learning path for enthusiasts, researchers, and students.  
+This repository serves as an open-source initiative for amateur radio, APRS, pico balloons, and CubeSat experiments. It provides a structured learning path for enthusiasts, researchers, and students.  
 
 https://www.qrz.com/db/TC3ATA
 https://www.qrz.com/db/TB3FLY
@@ -8,8 +8,12 @@ https://www.qrz.com/db/TB3FLY
 ## Project Overview
 
 - **Skill Level:** Beginner to Advanced  
-- **Topics Covered:** Amateur radio, SDR, APRS, pico balloons, satellite communications, CubeSat development  
+- **Topics Covered:** Amateur radio, APRS, pico balloons, satellite communications, CubeSat development  
 - **Contribution:** Open to the community  
+
+Amatör telsiz, APRS, pico balonlar ve CubeSat gibi konulara ilgi duyan bir ekip olarak, TC3ATA adlı açık kaynaklı projemizi hayata geçirdik. Bu proje sayesinde, teori ile pratiği birleştirerek yapılandırılmış bir öğrenme ve uygulama yolculuğu sunmayı hedefliyoruz.
+Ortaokul, lise ve üniversite öğrencileri başta olmak üzere, radyo amatörleri, gönüllü mühendisler, öğretmenler, STEM kulüpleri ve maker topluluklarına hitap eden bu çalışmayla, uzay temelli haberleşme teknolojilerine herkesin katkı sağlayabileceği bir ortam oluşturuyoruz.
+İlk başarımızı da APRS tabanlı balon simülasyonu testimizi tamamlayarak elde ettik. Şimdi sırada daha büyük hedefler var: daha fazla deney, daha fazla paylaşım ve daha güçlü iletişim.
 
 # TC3ATA - Uzay için Amatör Radyo Deneyleri (Türkiye)
 
@@ -208,4 +212,7 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 This project serves as a comprehensive guide for amateur radio enthusiasts, students, and researchers interested in wireless communication, portable systems, high-altitude ballooning, and Meshtastic mesh networks.
+
+
+![image](https://github.com/user-attachments/assets/672bbf34-3bdb-4134-a36b-e46995c58b5f)
 
