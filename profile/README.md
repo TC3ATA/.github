@@ -31,7 +31,8 @@ Bu depo, VHF, UHF, APRS, CW, dijital modlar, Meshtastic uygulamaları ve anten t
 - HF veya ISS üzerinden SSTV görüntüleri alma  
 - Robot36 ve MMSSTV ile görüntü çözümleme
 
-![Image (9)](https://github.com/user-attachments/assets/aac700c1-64ef-4280-9fde-89747057e185) ![Image (11)](https://github.com/user-attachments/assets/32066575-f935-41ab-a4fc-47b734fe331a)
+![Image (9)](https://github.com/user-attachments/assets/aac700c1-64ef-4280-9fde-89747057e185) ![img_170452](https://github.com/user-attachments/assets/3af1d426-8d98-4ea0-8901-47a0acb959f3)
+
 
 
 ### 3. ESP ile APRS Yayını
@@ -127,8 +128,8 @@ This repository provides a step-by-step roadmap for amateur radio experiments fo
 - Receiving SSTV images via HF or ISS transmissions  
 - Decoding images using Robot36 and MMSSTV
 
-![Image (9)](https://github.com/user-attachments/assets/aac700c1-64ef-4280-9fde-89747057e185)
-![Image (11)](https://github.com/user-attachments/assets/32066575-f935-41ab-a4fc-47b734fe331a)
+![Image (9)](https://github.com/user-attachments/assets/aac700c1-64ef-4280-9fde-89747057e185)![img_170452](https://github.com/user-attachments/assets/3af1d426-8d98-4ea0-8901-47a0acb959f3)
+
 
 
 
