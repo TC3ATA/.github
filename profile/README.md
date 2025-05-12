@@ -57,15 +57,12 @@ https://firebasestorage.googleapis.com/v0/b/ariss-sstv.appspot.com/o/img%2F17045
 
 ### 6. CW İletişim Testleri
 - HF CW sinyallerini alma ve çözme  
-- 5W çıkış gücüyle QSO denemeleri yapma
+- 0.1mW çıkış gücüyle QSO denemeleri yapma
 
 ### 7. POTA & SOTA Aktivasyon Testleri
 - Taşınabilir istasyonlar kurma ve mobil anten testleri  
 - Uzun mesafe QRP iletişimi sağlama
 
-### 8. 25W YM3XUU Dönüşümü ve Saha Testleri
-- YM3XUU çağrı işareti ile 25W çıkış gücünde saha testleri yapma  
-- Anten performansı ve yönlülüğünü değerlendirme
 
 ### 9. ESP ile Gelişmiş APRS ve Bluetooth/WiFi Entegrasyonu
 - ESP APRS cihazını cep telefonlarına Bluetooth veya WiFi üzerinden bağlama  
@@ -161,15 +158,12 @@ https://firebasestorage.googleapis.com/v0/b/ariss-sstv.appspot.com/o/img%2F17045
 
 ### 6. CW Communication Tests
 - Receiving and decoding HF CW signals  
-- Conducting QSO attempts with 5W output power
+- Conducting QSO attempts with 0.1mW output power
 
 ### 7. POTA & SOTA Activation Tests
 - Setting up portable radio stations and testing mobile antennas  
 - Establishing long-distance QRP communication
 
-### 8. 25W YM3XUU Conversion and Field Testing
-- Conducting field operations with 25W output under the YM3XUU call sign  
-- Evaluating antenna performance and directionality
 
 ### 9. Enhanced ESP APRS with Bluetooth/WiFi Integration
 - Connecting the ESP APRS device to smartphones via Bluetooth or WiFi  
