@@ -26,8 +26,6 @@ Bu depo, VHF, UHF, APRS, CW, dijital modlar, Meshtastic uygulamaları ve anten t
 - Python veya web tabanlı bir logbook uygulaması geliştirme  
 - QRZ ve LOTW ile entegrasyon sağlayarak QSO kayıtlarının tutulması
 
-- ![13](https://github.com/user-attachments/assets/009d1d4c-a828-4787-8e98-dc7bd823a508)
-- ![14](https://github.com/user-attachments/assets/b76bc8bb-6d75-4e1c-a441-f55af02418f0)
 
 ### 2. SSTV (Yavaş Taramalı Televizyon) Deneyleri
 - HF veya ISS üzerinden SSTV görüntüleri alma  
@@ -125,8 +123,6 @@ This repository provides a step-by-step roadmap for amateur radio experiments fo
 - Creating a logbook application using Python or a web-based solution  
 - Integrating with QRZ and LOTW for QSO record management
 
-- ![13](https://github.com/user-attachments/assets/009d1d4c-a828-4787-8e98-dc7bd823a508)
-- ![14](https://github.com/user-attachments/assets/b76bc8bb-6d75-4e1c-a441-f55af02418f0)
 
   
 ### 2. SSTV (Slow Scan Television) Experiments
