@@ -4,7 +4,7 @@ This repository serves as an open-source initiative for amateur radio, APRS, pic
 
 https://www.qrz.com/db/TC3ATA
 https://www.qrz.com/db/TB3FLY
-- **Website**: http://proje.space  
+**Website**: http://proje.space  
 ## Project Overview
 
 - **Skill Level:** Beginner to Advanced  
