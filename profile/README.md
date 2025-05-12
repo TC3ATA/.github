@@ -209,6 +209,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 This project serves as a comprehensive guide for amateur radio enthusiasts, students, and researchers interested in wireless communication, portable systems, high-altitude ballooning, and Meshtastic mesh networks.
 
-
-![image](https://github.com/user-attachments/assets/672bbf34-3bdb-4134-a36b-e46995c58b5f)
-
